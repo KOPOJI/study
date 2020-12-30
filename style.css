@@ -1,3 +1,7 @@
-div.js-items-list {
+.js-items-list {
     margin: 10px 0;
+}
+.js-basket-cart-add {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
