@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelector('.js-basket-items').insertAdjacentHTML(
             'beforeend',
             '<div>' +
-                    'You added: ' + parentElement.querySelector('.js-item-name').innerText + '' +
+                    'You added: ' + parentElement.querySelector('.js-item-name').innerText +
                     ' ('+ parentElement.querySelector('.js-item-price').innerText + '$)' +
                 '</div>'
             )
